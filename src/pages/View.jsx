@@ -63,12 +63,12 @@ function View() {
 
             <div className='text-center'>
 
-              <h5>{user.fname}{user.lname}</h5>
-              <h5>{user.email}</h5>
-              <h5>{user.mobile}</h5>
-              <h5>{user.gender}</h5>
-              <h5>{user.status}</h5>
-              <h5>{user.location}</h5>
+              <h5>User Name : {user.fname}{user.lname}</h5>
+              <h5>E-mail : {user.email}</h5>
+              <h5>Mobile : {user.mobile}</h5>
+              <h5>Gender : {user.gender}</h5>
+              <h5>Status : {user.status}</h5>
+              <h5>Loaction : {user.location}</h5>
 
             </div>
 
