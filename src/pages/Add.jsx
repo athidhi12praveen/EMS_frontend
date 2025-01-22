@@ -142,21 +142,23 @@ function Add() {
             <Form className="mt-5 p-3">
               <Row>
                 {/* first name */}
-                <FloatingLabel
-                  className="mb-3 col-lg-6 "
-                  controlId="floatingInputfname"
-                  label="First Name"
-                >
-                  <Form.Control
-                    type="text"
-                    name="fname"
-                    placeholder="First Name"
-                    onChange={(e) => getandsetuserNormalInputs(e)}
-                    value={normalInputs.value}
-                  />
-                </FloatingLabel>
+
+                  <FloatingLabel
+                    className="mb-3 col-lg-6 "
+                    controlId="floatingInputfname"
+                    label="First Name"
+                  >
+                    <Form.Control
+                      type="text"
+                      name="fname"
+                      placeholder="First Name"
+                      onChange={(e) => getandsetuserNormalInputs(e)}
+                      value={normalInputs.value}
+                    />
+                  </FloatingLabel>
 
                 {/* last name */}
+
                 <FloatingLabel
                   className="mb-3 col-lg-6"
                   controlId="floatingInputlname"

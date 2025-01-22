@@ -57,8 +57,7 @@ function View() {
 
                 <div className="text-center">
                   <p>
-                    User Name : {user.fname}
-                    {user.lname}
+                    User Name : {user.fname} <span>{user.lname}</span>
                   </p>
                   <p>E-mail : {user.email}</p>
                   <p>Mobile : {user.mobile}</p>
